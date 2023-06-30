@@ -1,0 +1,12 @@
+{
+  "name": "engsoftware-2023",
+  "version": "1.0.0",
+  "description": "Repositório para os materias de aula da disciplina de Engenharia de Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
