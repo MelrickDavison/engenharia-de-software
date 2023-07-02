@@ -21,13 +21,13 @@ describe("CRUD", function() {
     });
   });
 
-  // describe("readItems()", function () {
-  //   it("Ler todos os itens", function () {
-  //     let c = new CRUD();
-  //     c.createItem("Item 1");
-  //     assert.strictEqual(c.readItems(), '[Item 1]');
-  //   })
-  // });
+  describe("readItems()", function () {
+    it("Ler todos os itens", function () {
+      let c = new CRUD();
+      c.createItem("Item 1");
+      assert.strictEqual(c.items, '[Item 1]');
+    })
+  });
 
   describe("readItem()", function () {
     it("Ler item pelo índice", function () {
